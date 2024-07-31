@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://media.gettyimages.com/id/911404660/photo/rush-hour-traffic-in-downtown-beijing.jpg?s=612x612&w=0&k=20&c=Fr2fwgxRVTAYcW1dAtpNLD0BcfD2qlcS20iFX0SsXpk=') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.intro {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.call-now {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#services article {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#services img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#services h2 {
+    color: skyblue;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.open-button {
+    background-color: skyblue;
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    #services {
+        grid-template-columns: 1fr;
+    }
+}

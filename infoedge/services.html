@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartRoute AI - Services</title>
+    <link rel="stylesheet" href="services3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <p class="intro">SmartRoute AI offers advanced transportation solutions to address the significant disruptions faced by transportation systems. Our innovative technology mitigates vehicle breakdowns, minimizes traffic congestion, and enhances overall safety and efficiency, thereby reducing costs for businesses.</p>
+        <button class="call-now" onclick="window.location.href='tel:8978012926'"><i class="fas fa-phone"></i> Call Now</button>
+    </header>
+    <section id="services">
+        <article>
+            <img src="https://media.gettyimages.com/id/521328568/photo/downtown-los-angeles.jpg?s=612x612&w=0&k=20&c=Y5HA76biyaYM-WkTrvJaCHD1mc6umkuWLVKWGgz_Wi0=" alt="Fleet Management">
+            <h2>Fleet Management</h2>
+            <p>Enhance your fleet operations with our cutting-edge technology that provides real-time monitoring, predictive maintenance, and route optimization for improved performance and cost savings.</p>
+        </article>
+        <article>
+            <img src="https://media.gettyimages.com/id/521328568/photo/downtown-los-angeles.jpg?s=612x612&w=0&k=20&c=Y5HA76biyaYM-WkTrvJaCHD1mc6umkuWLVKWGgz_Wi0=" alt="Last-Mile Delivery">
+            <h2>Last-Mile Delivery</h2>
+            <p>Streamline your last-mile delivery processes with our AI-powered solutions, ensuring timely and efficient delivery of goods to your customers while optimizing routes and minimizing delivery costs.</p>
+        </article>
+        <article>
+            <img src="https://media.gettyimages.com/id/512136525/photo/bored-businesswoman-driving-in-city-traffic-jam.jpg?s=612x612&w=0&k=20&c=wFa7bqwJxEu3WUp3Ta66UgFjPdoSV-fGbr8ELAOet-Q=" alt="Route Optimization">
+            <h2>Route Optimization</h2>
+            <p>Optimize your transportation routes with our smart AI algorithms, reducing travel time, fuel consumption, and environmental impact while maximizing productivity and customer satisfaction.</p>
+        </article>
+        <article>
+            <img src="https://media.gettyimages.com/id/520826200/photo/traffic-on-western-express-highway-bandra-bombay-mumbai-maharashtra-india.jpg?s=612x612&w=0&k=20&c=PQImAS8DuD72MfWPM0ZZ4obz6piQKnNt7CJIg4tFfrY=" alt="Safety and Compliance">
+            <h2>Safety and Compliance</h2>
+            <p>Prioritize safety and compliance with our comprehensive AI solutions that monitor driver behavior, ensure regulatory compliance, and proactively identify potential risks for a secure and reliable transportation operation.</p>
+        </article>
+    </section>
+    <div class="chat-popup" id="chatForm">
+        <form action="/submit-suggestion" class="form-container">
+            <h2>Chat</h2>
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    <button class="open-button" onclick="openForm()">Chat</button>
+    <footer>
+        <p>© 2035 by Bayside Taxi. Powered and secured by Wix</p>
+    </footer>
+    <script src="script1.js"></script>
+</body>
+</html>

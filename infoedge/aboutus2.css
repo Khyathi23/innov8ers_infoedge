@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 1em 0;
+}
+
+#fleet-info {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXDJWDAVQkoc_h-79LyG9mJGhcaCl20HqBg&s');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    color: #ffffff;
+}
+
+#vehicles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTyPqShM9yGHX1e3IYW00BaPtgH2WTqX9Ig&s');
+    background-size: cover;
+    padding: 20px;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(33, 33, 33, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    width: 300px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#team-info {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.profile {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+#profile-details {
+    display: none;
+    margin-top: 20px;
+}
+
+#profile-info {
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+}
